@@ -18,7 +18,7 @@ if len(sys.argv) != 3:
     sys.exit()
 
 #Thumbnail
-size =120,120
+size =  128, 128
 #Read image
 im   = Image.open(options._image)
 imgr = ImageOps.grayscale(im)
@@ -37,10 +37,9 @@ for i in range(1,ysize):
     for j in range(1,xsize):
         l.append(chr(64 + (px[j,i] + (30 - px[j,i] % 30)) % 34))
     il.append(l)
+
 for item in il:
     f.write("%s\n" % "".join(item))
 
 for item in il:
     print "".join(item)
-
-print xsize, ysize
