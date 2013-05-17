@@ -35,7 +35,7 @@ il = []
 for i in range(1,ysize):
     l = []
     for j in range(1,xsize):
-        l.append(chr(64 + (px[j,i] + (20 - px[j,i] % 20)) % 34))
+        l.append(chr(64 + (px[j,i] + (30 - px[j,i] % 30)) % 34))
     il.append(l)
 for item in il:
     f.write("%s\n" % "".join(item))
