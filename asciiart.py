@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 
+import sys
 from optparse import OptionParser
 import Image
 import ImageOps
@@ -11,6 +12,10 @@ op.add_option("-I", "--image", dest="_image",
                   help="Read an image")
 
 (options, args) = op.parse_args()
+
+if len(sys.argv) != 3:
+    print op.print_help()
+    sys.exit()
 
 #Thumbnail
 size =120,120
