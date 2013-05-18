@@ -20,7 +20,12 @@ if len(sys.argv) != 3:
 #Thumbnail
 size =  128, 128
 #Read image
-im   = Image.open(options._image)
+try:
+    im = Image.open(options._image)
+except:
+    print "No such file or directory"
+    sys.exit()
+
 imgr = ImageOps.grayscale(im)
 imgr.thumbnail(size, Image.ANTIALIAS)
 imgr.save("temp","JPEG")
