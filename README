@@ -1,2 +1,4 @@
 Usage:
 python asciiart.py -I <IMAGEFILE>
+
+Output file: out 
