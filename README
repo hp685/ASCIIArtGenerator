@@ -1,8 +1,8 @@
 Generate ascii-art from images 
 
-### Usage
+**Usage**
 
-`python asciiart.py -I <IMAGEFILE>`
+```python asciiart.py -I <IMAGEFILE>```
 
 Output of olivia.jpg: 
 
