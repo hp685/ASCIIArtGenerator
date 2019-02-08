@@ -1,6 +1,6 @@
 Generate ascii-art from images 
 
-##Usage
+### Usage
 
 `python asciiart.py -I <IMAGEFILE>`
 
