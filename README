@@ -1,10 +1,8 @@
-Generate ascii-art from images 
+Generate ascii-art from images.
 
-**Usage**
+Usage is as follows
 
-```python asciiart.py -I <IMAGEFILE>```
-
-Output of olivia.jpg: 
+$ python asciiart.py -I <IMAGEFILE>
 
 
 
@@ -12,7 +10,7 @@ Output of olivia.jpg:
 
 
 
-
+Out of olivia.jpg
 
 JJFFFFFFJFFBBBBBBB`BB`````BBBFRVVRRVVZZZ^^^^ZZ^^ZZZZZZZZZZZZVZZVVVVVVVZ^ZZZ^ZZZZ^ZZZZVVRVVZZZZ^ZRJNNNRVVVZZZZZZZZZZZZVRRNNNNNR
 JJFFFFFFFFFFBBBBBBBBB````BBBBNVVVNRVZ^^^^^^ZZ^^ZZZZZZZZZZZZZZZVVVVRVVVZ^ZZZZ^ZZZZ^ZZZZVRRZVZZZZ^VRNNNRVVVZZZZZZZZZZZZVRRNRRNNN
@@ -141,3 +139,4 @@ NNNNNNNNNVZRRRVZ^^^Z^^Z^^^^^^^^^^^^^^^^^ZZVVRRVZ^ZVRRRRNRRRRNRZ^^^ZZ^^^^^^^^^^^^
 NNNNNNNNNZVRVZZ^^ZZ^^^^^^^^^^^^^^^^^^^^ZZVVRRRZ^^VRNNNNRRRVZZZZ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^VRRRRNNNNNNNNNNNNNNNNN
 NNNNNNNNRZVRZ^^^ZZ^^^^^^^^^^^^^^^^^^^^ZZVRRRRV^ZZRNNNNNNJNNNRRRRZ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^VRRRNNNNNNNNNNNNNNNNNN
 NNNNNNNNVZVZ^^ZZZ^^^^^^^^^^^^^^^^^^^^ZVVRRRRRZ^ZZRNNNNJJNJJNJNNNRZZ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^VRRRNNNNNNNNNNNNNNNNNN
+
