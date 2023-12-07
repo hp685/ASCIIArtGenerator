@@ -14,7 +14,7 @@ op.add_option("-I", "--image", dest="_image",
 (options, args) = op.parse_args()
 
 if len(sys.argv) != 3:
-    print op.print_help()
+    print (op.print_help())
     sys.exit()
 
 # Thumbnail
@@ -22,8 +22,8 @@ size = 128, 128
 # Read image
 try:
     im = Image.open(options._image)
-except:
-    print "No such file or directory"
+except Exception, e:
+    print(e)
     sys.exit()
 
 imgr = ImageOps.grayscale(im)
@@ -47,4 +47,4 @@ for item in il:
     f.write("%s\n" % "".join(item))
 
 for item in il:
-    print "".join(item)
+    print("".join(item))
