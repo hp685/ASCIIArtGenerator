@@ -22,7 +22,7 @@ size = 128, 128
 # Read image
 try:
     im = Image.open(options._image)
-except Exception, e:
+except Exception as e:
     print(e)
     sys.exit()
 
